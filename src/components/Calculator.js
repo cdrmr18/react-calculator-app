@@ -91,6 +91,7 @@ const Buttons = styled.div`
     height: 540px;
     padding: 25px;
     color: #434A59;
+    border-radius: 8px;
 
     display: grid;
     justify-items center;
