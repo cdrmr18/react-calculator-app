@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 import styled from "styled-components";
+import Calculator from './components/Calculator.js'
 
 function App() {
   return (
-    <div className="App">
-      <Wrapper />
-    </div>
+   <Wrapper> 
+     <div>
+      <Calculator />
+     </div>
+   </Wrapper>
   );
 }
 
