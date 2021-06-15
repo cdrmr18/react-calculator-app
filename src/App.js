@@ -6,9 +6,7 @@ import Calculator from './components/Calculator.js'
 function App() {
   return (
    <Wrapper> 
-     <div>
       <Calculator />
-     </div>
    </Wrapper>
   );
 }
@@ -19,4 +17,7 @@ const Wrapper = styled.div`
   background-color: blue;
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 ` 
